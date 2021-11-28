@@ -1,0 +1,95 @@
+
+
+
+table{
+    width: 100%;
+    border:none;
+    background-color: rgba(224, 224, 224, 0.568);
+}
+
+.esquerda{
+  padding: 10;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.507);
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+
+
+
+.active {
+  background-color: #fc2020be;
+  border-radius: 20px;
+  margin: 3;
+}
+
+.active:hover{
+  color: white;
+}
+
+.logo{
+  margin: 3;
+}
+
+.logo:hover{
+  color: white;
+  border-radius: 20px;
+}
+
+.entrar:hover{
+ color: black;
+ transition: 0.5s;
+}
+
+.nome{
+  font-size: 3em;
+  margin: 20;
+ font-family: sans-serif;
+}
+
+.perfil{
+  width: 50px;
+  margin-left: 28;
+}
+
+.seguidores{
+  margin-left: 28;
+}
+
+.rodape{
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+ th{
+   padding: 30;
+ }
+
+ td{
+   padding: 30;
+ }
+
+ .pagination {
+  background-color: white;
+}
